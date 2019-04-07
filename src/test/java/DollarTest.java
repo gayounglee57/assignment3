@@ -17,10 +17,10 @@ public class DollarTest {
         assertEquals(new Dollar(5), result); // You could change 5 to 4 to see the build failure
     }
 
-    @Test(expected=ArithmeticException.class) public void testDollarDividedByZero() {
-        // Given
-        Dollar ten = new Dollar(10);
-        // When
-        ten.dividedBy(0);
-    }
+//    @Test(expected=ArithmeticException.class) public void testDollarDividedByZero() {
+//        // Given
+//        Dollar ten = new Dollar(10);
+//        // When
+//        ten.dividedBy(0);
+//    }
 }
